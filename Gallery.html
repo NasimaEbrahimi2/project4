@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div class="dx"> 
+            
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <style>
+        body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #E0FFFF;
+      color: #222;
+    }
+     
+    header {
+      background-color: #ddd;
+      color: black;
+      padding: 20px;
+      text-align: center;
+     }
+    .search-box{
+        width: 300px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+    
+      }
+      #myDIV {
+        animation: mymove 5s infinite;
+      }
+      
+      @keyframes mymove {
+        50% {text-shadow: 10px 20px 30px black;}
+      }
+      .search-bo{
+        padding: 10px;
+        border: none;
+        background-color: #5d5f5d;;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        
+      }
+      .search-bo:hover {
+        background-color: rgb(182, 182, 182)
+      }
+      h1{ 
+        text-align: center;
+        margin-top: 50px;
+    }
+    .section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      font-family: 'Noto Serif', serif;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background-color: #f9f1db;
+      box-shadow:  0 0 10px rgb(136, 255, 0);
+    }
+    .proverb-text {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .translation {
+      font-size: 0.9rem;
+      color: #555;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    header {
+      background-color: #ddd;
+      color: black;
+      padding: 20px;
+      text-align: center;
+     }
+     div{
+       margin-top: 15px;
+     }
+
+    nav{
+        background-color: #778899;
+        overflow: hidden;
+        box-shadow:  0 2px 4px rgba(0,0,0);
+        justify-content: center;
+        display: flex;
+    }
+    nav a {
+        
+        color: white;
+        padding: 14px 20px;
+        text-emphasis: none;
+        transition: background-colo 0.3s, transform 0.3s;
+        
+
+    }
+    nav a:hover {
+        background-color: #5d5f5d;
+        transform: scale(1.05)
+    }
+    
+    nav a.active{
+       background-color:  #333;
+    }
+    footer{
+        text-align:center;
+         padding:20px; 
+         background: #778899; 
+         color:white;
+    }
+    </style>
+</head>
+<body>
+        <header>
+                <div id="myDIV">
+                <h1>Afghan Proverbs</h1>
+              </div>
+                <p>Explore the wisdom of Afghan culture</p>
+              </header>
+              <nav>
+                <a href="index.html">Home</a>
+                
+                <a href="Submit.html">Submit</a>
+              </nav>
+        
+        <section class="section" id="gallery">
+                <div id="myDIV">
+                <h2>Proverb Gallery</h2>
+              </div>
+              <div class="div">
+              <form action="" method="POST">
+                    <input type="text" class="search-box" placeholder="search" name="search">
+                    <button type="submit" class="search-bo">search</button>
+                  </form>
+                </div>
+                <div class="div">
+                <div class="gallery">
+                  <div class="card">
+                    <div class="proverb-text">زبان سرخ صاحبش را به باد میدهد.</div>
+                    <div class="translation">A Sharp Tongue Can Lead Its Owner Trouble.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">دوستی از دور خوب است.</div>
+                    <div class="translation">Friendship Is Good Frome A Far.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">نرود میخ آهنین در سنگ.</div>
+                    <div class="translation">An Iron Nail Dose Not Go In To Stone.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="div">
+                <div class="gallery">
+                  <div class="card">
+                    <div class="proverb-text">زبان سرخ صاحبش را به باد میدهد.</div>
+                    <div class="translation">A Sharp Tongue Can Lead Its Owner Trouble.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">دوستی از دور خوب است.</div>
+                    <div class="translation">Friendship Is Good Frome A Far.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">نرود میخ آهنین در سنگ.</div>
+                    <div class="translation">An Iron Nail Dose Not Go In To Stone.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="div">
+                <div class="gallery">
+                  <div class="card">
+                    <div class="proverb-text">زبان سرخ صاحبش را به باد میدهد.</div>
+                    <div class="translation">A Sharp Tongue Can Lead Its Owner Trouble.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">دوستی از دور خوب است.</div>
+                    <div class="translation">Friendship Is Good Frome A Far.</div>
+                  </div>
+                  <div class="card">
+                    <div class="proverb-text">نرود میخ آهنین در سنگ.</div>
+                    <div class="translation">An Iron Nail Dose Not Go In To Stone.</div>
+                  </div>
+                </div>
+              </div>
+              </section>
+              </div>
+</body>
+<footer>
+  <p> &copy; <b>Nsima Ebrahim 2025</b></p>  
+</footer>
+</html>

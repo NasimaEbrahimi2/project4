@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Submit</title>
+    <style>
+         body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #E0FFFF;
+      color: #222;
+    }
+    header {
+      background-color: #ddd;
+      color: black;
+      padding: 20px;
+      text-align: center;
+     }
+     .submit-form input, .submit-form textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .submit-form button {
+      padding: 10px 20px;
+      background-color:   #5d5f5d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+    .submit-form button:hover{
+        
+        background-color: #5d5f5d;
+    }
+    .dx{
+        padding: 30px;
+        max-width: 1000px;
+        margin: auto;
+        background-color: #ddd;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        border-radius: 8px;  
+      }
+     
+     
+         #myDIV {
+        animation: mymove 5s infinite;
+      }
+      
+      @keyframes mymove {
+        50% {text-shadow: 10px 20px 30px black;}
+      }
+      nav{
+        background-color: #778899;
+        overflow: hidden;
+        box-shadow:  0 2px 4px rgba(0,0,0);
+        justify-content: center;
+        display: flex;
+    }
+    nav a {
+        
+        color: white;
+        padding: 14px 20px;
+        text-emphasis: none;
+        transition: background-colo 0.3s, transform 0.3s;
+        
+
+    }
+    nav a:hover {
+        background-color: #5d5f5d;
+        transform: scale(1.05)
+    }
+    
+    nav a.active{
+       background-color:  #333;
+    }
+    footer{
+        text-align:center;
+         padding:20px; 
+         background: #778899; 
+         color:white;
+    }
+    </style>
+</head>
+
+<body>
+        <header>
+                <div id="myDIV">
+                <h1>Afghan Proverbs</h1>
+              </div>
+                <p>Explore the wisdom of Afghan culture</p>
+              </header>
+              <nav>
+                <a href="index.html">Home</a>
+                <a href="Gallery.html">Gallery</a>
+                
+              </nav>
+              <div class="dx">
+              <section class="section" id="home">
+                <div id="myDIV">
+                <h2>Welcome</h2>
+                </div>
+    <div class="dx">
+        <section class="section" id="submit">
+          <div id="myDIV">
+          <h2>Submit a Proverb</h2>
+         </div>
+          <form class="submit-form">
+                
+            <input type="text" placeholder="Your Name">
+            <textarea rows="3" placeholder="Write your proverb..."></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+</body>
+<footer>
+    <p> &copy; <b>Nsima Ebrahim 2025</b></p>  
+ </footer>
+</html>
